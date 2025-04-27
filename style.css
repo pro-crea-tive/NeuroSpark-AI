@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background: #4a00e0;
+    background: linear-gradient(to right, #4a00e0, #8e2de2);
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.cta-button {
+    background: white;
+    color: #4a00e0;
+    padding: 15px 30px;
+    margin-top: 20px;
+    display: inline-block;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.features ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input[type="email"] {
+    padding: 10px;
+    width: 70%;
+    max-width: 300px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4a00e0;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    background: #eee;
+    margin-top: 40px;
+}
