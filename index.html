@@ -1,45 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>NeuroSpark AI Solutions</title>
-    <meta name="description" content="Unlock the power of AI and automate your business in 7 days with NeuroSpark AI Solutions.">
-    <link rel="stylesheet" href="style.css">
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 2em;
+            color: #2c3e50;
+        }
+
+        .cta-button {
+            background-color: #3498db;
+            color: white;
+            font-size: 1.2em;
+            padding: 15px 30px;
+            border: none;
+            cursor: pointer;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+
+        .cta-button:hover {
+            background-color: #2980b9;
+        }
+
+        .form-container {
+            margin-top: 30px;
+        }
+
+        input[type="email"] {
+            padding: 10px;
+            font-size: 1em;
+            width: 70%;
+            max-width: 400px;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .form-container button {
+            padding: 12px 20px;
+            font-size: 1em;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-left: 10px;
+        }
+
+        .form-container button:hover {
+            background-color: #2980b9;
+        }
+
+        /* Mobile Responsiveness */
+        @media screen and (max-width: 768px) {
+            header {
+                padding: 15px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            .cta-button {
+                padding: 12px 25px;
+                font-size: 1em;
+            }
+
+            input[type="email"] {
+                width: 80%;
+                font-size: 1.1em;
+            }
+
+            .form-container {
+                display: flex;
+                justify-content: center;
+                margin-top: 20px;
+            }
+        }
+    </style>
 </head>
+
 <body>
     <header>
         <h1>NeuroSpark AI Solutions</h1>
-        <p>The Brain Behind Your Business</p>
-        <a href="#contact" class="cta-button">Get My Free AI Automation Map</a>
+        <p>Automating Your Business with AI</p>
     </header>
 
-    <section class="about">
-        <h2>Why NeuroSpark?</h2>
-        <p>Save time, generate more sales, and never miss a lead again — without coding or complexity. We build AI automation systems for businesses like yours.</p>
+    <section>
+        <h2>Unlock Your Business Potential</h2>
+        <p>Transform your business with AI automation. Receive a customized AI Automation Map tailored to your business needs.</p>
+
+        <div class="form-container">
+            <form action="https://formspree.io/f/your_form_id" method="POST">
+                <input type="email" name="email" placeholder="Enter your email to receive your free AI Automation Map" required>
+                <button type="submit">Get Your Free Map</button>
+            </form>
+        </div>
+
+        <div>
+            <button class="cta-button" onclick="window.location.href='#services'">Explore Our Services</button>
+        </div>
     </section>
 
-    <section class="features">
-        <h2>What You Get</h2>
+    <section id="services">
+        <h2>Our Services</h2>
+        <p>We provide AI-driven solutions to automate your business operations. Here’s what we can do for you:</p>
         <ul>
             <li>AI Sales Chatbots</li>
-            <li>Automated Lead Follow-up</li>
-            <li>Content Creation Engine</li>
-            <li>Workflow Automations (CRM, HR, Invoices)</li>
+            <li>Automated Lead Follow-Up</li>
+            <li>Content Creation Automation</li>
+            <li>Internal Workflow Automations</li>
         </ul>
-    </section>
-
-    <section id="contact" class="contact">
-        <h2>Get Your Free AI Automation Map</h2>
-        <p>Drop your email and we'll send it over!</p>
-        <form action="https://tally.so/r/yourformid" method="POST">
-            <input type="email" name="email" placeholder="Your Email" required>
-            <button type="submit">Send My Map</button>
-        </form>
+        <div>
+            <button class="cta-button" onclick="window.location.href='https://www.contact-us.com'">Contact Us</button>
+        </div>
     </section>
 
     <footer>
-        <p>&copy; 2025 NeuroSpark AI Solutions</p>
+        <p>&copy; 2025 NeuroSpark AI Solutions. All rights reserved.</p>
     </footer>
+
 </body>
+
 </html>
